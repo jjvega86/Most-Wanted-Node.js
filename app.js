@@ -424,4 +424,5 @@ function chars(input) {
 
 module.exports = {
   app: app,
+  chars: chars,
 };
