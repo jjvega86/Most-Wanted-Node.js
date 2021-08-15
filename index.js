@@ -1,4 +1,4 @@
 const people = require("./data");
-const app = require("./app");
+const { app } = require("./app");
 
 app(people);

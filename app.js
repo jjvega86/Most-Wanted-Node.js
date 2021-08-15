@@ -5,9 +5,10 @@ Build all of your functions for displaying and gathering information below (GUI)
 */
 
 // TODO
-// TODO: Port over to Node.js
+// DONE: Port over to Node.js
 // TODO: Install Jest and write 10 unit tests
 // TODO: Finish validation functions
+// TODO: Refactor project to split app.js into multiple modules (search.js, display.js, validate.js)
 // DONE - Search by Name - get the individual person based on search
 // DONE - Search by Traits - use a do/while loop to reprompt for multiple traits
 // DONE - Reduce search results to single person
@@ -421,4 +422,6 @@ function chars(input) {
   return true; // default validation only
 }
 
-module.exports = app;
+module.exports = {
+  app: app,
+};
